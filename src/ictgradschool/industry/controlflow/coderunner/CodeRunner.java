@@ -9,13 +9,16 @@ public class CodeRunner {
      * Q1. When given an integer, return an integer that is the reverse (its
      * numbers are in reverse to the input).
      * order.
-     *
+
      * @param number
      * @return the integer with digits in reverse order
      */
     public int reverseInt(int number) {
         int reverseNum = 0;
         // TODO write answer for Q3
+        int rightmostnumber = number % 10;
+
+        reverseNum =
         return reverseNum;
     }
     /** reverseInt(int) => void **/
