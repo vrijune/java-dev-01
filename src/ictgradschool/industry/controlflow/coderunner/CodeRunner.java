@@ -15,10 +15,19 @@ public class CodeRunner {
      */
     public int reverseInt(int number) {
         int reverseNum = 0;
-        // TODO write answer for Q3
-        int rightmostnumber = number % 10;
 
-        reverseNum =
+        boolean isNegative = (number < 0 );
+        int positiveNumber = Math.abs(number);
+
+        while (positiveNumber > 0){
+            int ones = positiveNumber % 10;
+            positiveNumber /= 10;
+        }
+
+
+
+
+
         return reverseNum;
     }
     /** reverseInt(int) => void **/
@@ -33,7 +42,17 @@ public class CodeRunner {
      */
     public String convertIntToColTitle(int num) {
         String columnName = "";
-        // TODO write answer for Q6
+
+        if(num <= 0){
+            System.out.println("Input is invaild");
+
+            else (num > 0){
+
+
+            }
+
+        }
+        //
         return columnName;
     }
     /** convertIntToColTitle(int) => void **/
@@ -47,7 +66,7 @@ public class CodeRunner {
      * @return true if string is palindrome, false otherwise
      */
     public boolean isStringPalindrome(String str) {
-        // TODO write answer for Q9
+        //
         return false;
     }
     /** isStringPalindrome(String) => boolean **/
@@ -61,8 +80,12 @@ public class CodeRunner {
      * @return the primes as a space separated list
      */
     public String printPrimeNumbers(int num) {
+
+
+        }
         String primesStr = "";
-        // TODO write answer for Q10
+
+        //
         return primesStr;
     }
 }
