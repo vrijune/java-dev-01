@@ -22,14 +22,16 @@ public class CodeRunner {
         while (positiveNumber > 0){
             int ones = positiveNumber % 10;
             positiveNumber /= 10;
+            reverseNum *= 10;
+            reverseNum += ones;
+        }
+        if (isNegative) {
+          reverseNum *= -1;
+
         }
 
-
-
-
-
         return reverseNum;
-    }
+
     /** reverseInt(int) => void **/
 
 
